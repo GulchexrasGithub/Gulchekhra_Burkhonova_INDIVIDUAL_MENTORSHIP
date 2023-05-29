@@ -1,0 +1,44 @@
+﻿﻿// --------------------------------------------------------------- 
+// Copyright (c) the Gulchekhra Burkhonova
+// INDIVIDUAL MENTORSHIP Program with Gulchekhra at Exadel
+// ---------------------------------------------------------------
+
+  Question: Main GIT commands: clone, pull, push, checkout, merge, cherry pick, rebase, commit, add.
+  Answer:
+		 'Clone': Creates a copy of a remote repository onto your local machine.
+		 It sets up a connection between the remote repository and your local repository, allowing you to fetch and push changes.
+
+		pull: Updates your local repository with the latest changes from the remote repository. 
+		It combines the fetch command (which retrieves the changes) and the merge command (which merges the changes into your local branch).
+
+		push: Sends your local commits to the remote repository, updating it with your changes. 
+		It is used to share your work with others or to store a backup of your code in the remote repository.
+
+		checkout: Switches between branches or restores files from a specific commit. 
+		It allows you to navigate between different branches or versions of your project.
+
+		merge: Combines changes from one branch into another.
+		It integrates the changes made in a source branch into a target branch.
+
+		cherry-pick: Selects specific commits from one branch and applies them to another branch.
+		It allows you to pick individual commits and apply them to a different branch,
+		useful when you want to apply specific changes without merging entire branches.
+
+		rebase: Moves or combines a sequence of commits to a new base commit. 
+		It allows you to change the base commit of a branch, resulting in a cleaner and linear history. 
+		It is commonly used to incorporate the latest changes from a target branch into your working branch.
+
+		commit: Records changes made to your files in your local repository.
+		It creates a new commit with a unique identifier (hash) that represents a snapshot of your changes.
+
+		add: Stages changes to be included in the next commit.
+		It adds modified files or new files to the staging area, preparing them to be committed.
+
+		These are just a few of the essential Git commands.
+		Git provides a wide range of commands and options to manage version control efficiently.
+		It's recommended to refer to the Git documentation or use the git --help command
+		to explore more detailed information about each command and its available options.
+
+
+
+

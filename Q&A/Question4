@@ -1,0 +1,47 @@
+﻿﻿// --------------------------------------------------------------- 
+// Copyright (c) the Gulchekhra Burkhonova
+// INDIVIDUAL MENTORSHIP Program with Gulchekhra at Exadel
+// ---------------------------------------------------------------
+
+Question: About Branching models (GitFlow, GitHub Flow, The Forking Workflow).
+Answer:
+	Branching models are strategies for managing branches and workflows within a Git repository.
+	Here are explanations of three popular branching models:
+
+	GitFlow:
+	GitFlow is a branching model designed for projects with a more structured and 
+	long-term development cycle. It separates development into different types of branches, each serving a specific purpose:
+	Main Branches:
+
+	master: Represents the production-ready code.
+	develop: Serves as the integration branch for ongoing development.
+	Supporting Branches:
+
+	feature: Used for developing new features or enhancements. Created off develop and merged back into it.
+	release: Prepares the code for a new release. Created off develop and merged into both develop and master.
+	hotfix: Addresses critical issues in the production code. Created off master and merged back into both develop and master.
+	This model promotes a clear separation of work, facilitates collaboration, and allows for releases and hotfixes to be managed more effectively.
+
+	GitHub Flow:
+	GitHub Flow is a simpler and more lightweight branching model, often suitable for smaller teams or projects with a faster release cycle.
+	It revolves around a single main branch, typically master:
+	Development Workflow:
+	Create a feature branch: Developers create a new branch for each new feature or bug fix.
+	Make changes and commit: Developers make changes within their feature branch and commit their work as they progress.
+	Open a pull request: When ready, developers open a pull request to propose their changes for review and merging.
+	Review and merge: Team members review the code, provide feedback, and, once approved, merge the changes into the master branch.
+	Deploy: After the changes are merged, they can be deployed to the production environment.
+	GitHub Flow emphasizes continuous integration, frequent releases, and a collaborative review process.
+
+	The Forking Workflow:
+	The Forking Workflow is commonly used in open-source projects where contributors do not have direct write access to the main repository. It involves the following steps:
+	Fork: Each contributor creates a personal fork of the main repository.
+	Clone: Contributors clone their forked repository to their local machine.
+	Branch and commit: Developers create a new branch in their forked repository, make changes, and commit them.
+	Push and create a pull request: Developers push their branch to their forked repository and create a pull request to propose changes to the main repository.
+	Review and merge: Maintainers or designated reviewers review the changes, provide feedback, and merge the pull request if approved.
+	Sync: Contributors regularly sync their forked repository with the main repository to incorporate any new changes.
+	The Forking Workflow allows for a high level of contribution while maintaining a structured and controlled approach to merging changes into the main repository.
+
+	Each branching model has its own strengths and is suited to different development scenarios.
+	It's important to choose a model that aligns with the needs and characteristics of your project and team.
