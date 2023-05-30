@@ -1,0 +1,44 @@
+﻿﻿// --------------------------------------------------------------- 
+// Copyright (c) the Gulchekhra Burkhonova
+// INDIVIDUAL MENTORSHIP Program with Gulchekhra at Exadel
+// ---------------------------------------------------------------
+
+Question : About Centralized/decentralized VCS.
+Answer:
+	Centralized Version Control Systems (VCS) and Decentralized Version Control Systems,
+	also known as Distributed VCS, are two different approaches to managing version control in software development or other collaborative projects.
+
+Centralized Version Control Systems (CVCS):
+In a CVCS, there is a central repository that stores all versions of files and manages changes.
+Developers clone a copy of the entire repository onto their local machines and work on their files.
+When they want to commit their changes, they communicate with the central repository and update it with their modifications.
+Other team members can then update their local copies to receive the latest changes.
+Advantages of CVCS:
+
+Centralized control: The central repository serves as a single source of truth, ensuring that all team members have access to the same set of files.
+Simplified collaboration: Developers can easily see and review each other's changes by updating their local copies from the central repository.
+Access control: The central repository allows administrators to set permissions and restrict access to specific files or branches.
+Disadvantages of CVCS:
+
+Single point of failure: If the central repository becomes unavailable, team members cannot commit changes or access the latest versions of files.
+Limited offline capabilities: Developers often need an internet connection to interact with the central repository.
+Slower performance for remote operations: Operations like commits, updates, and history retrieval can be slower if the central repository is located far away from the developers.
+Examples of CVCS: Apache Subversion (SVN) and Perforce.
+
+Decentralized Version Control Systems (DVCS):
+In a DVCS, each team member has a complete copy of the repository, including the entire history, on their local machine. 
+This means that developers can work independently and commit changes to their local repositories without needing a connection to a central server. 
+They can then synchronize their changes with other repositories, merging and sharing modifications.
+Advantages of DVCS:
+
+Distributed workflow: Developers can work offline and commit changes to their local repositories, enabling them to work independently and collaborate effectively even without a central server.
+Redundancy and backup: Each developer has a full copy of the repository, providing redundancy and ensuring that the codebase is not reliant on a single server.
+Faster local operations: Since all operations are performed locally, DVCS typically offers faster commit, branch, and history retrieval operations compared to CVCS.
+Disadvantages of DVCS:
+
+Complexity: Working with a DVCS can have a steeper learning curve compared to CVCS, as it requires a deeper understanding of distributed workflows and merging processes.
+Increased storage requirements: Since each developer has a complete copy of the repository, DVCS may require more storage space compared to CVCS.
+Examples of DVCS: Git, Mercurial.
+
+Both CVCS and DVCS have their advantages and disadvantages, and the choice between them depends on the specific needs and preferences of the project and the development team. 
+Git, as a distributed version control system, has gained significant popularity due to its flexibility, performance, and extensive tooling support.

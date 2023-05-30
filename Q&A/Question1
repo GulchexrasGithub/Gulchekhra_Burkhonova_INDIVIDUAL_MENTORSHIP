@@ -1,0 +1,37 @@
+﻿﻿// --------------------------------------------------------------- 
+// Copyright (c) the Gulchekhra Burkhonova
+// INDIVIDUAL MENTORSHIP Program with Gulchekhra at Exadel
+// ---------------------------------------------------------------
+
+  Qusetion: What is version control and why do you need it?
+
+  Answer:
+	Version control is a system that manages changes to files and documents over time.
+  It tracks modifications made to files, allowing users to keep a record of every change, compare different versions,
+  and revert back to previous states if needed. It is commonly used in software development but can be applied to any type of file.
+
+The primary purpose of version control is to provide a collaborative and structured approach to managing changes in a project.
+Here are some reasons why version control is necessary:
+
+History and Tracking: Version control systems maintain a chronological history of changes made to files. 
+Each modification is recorded along with details such as who made the change, when it was made, and why.
+This enables developers to understand the evolution of a project, track down issues, and identify the responsible parties.
+
+Collaboration: Version control facilitates collaboration among team members. Multiple individuals can work on the same project simultaneously,
+and the system merges their changes together intelligently. It helps avoid conflicts and allows team members to view, review, and comment on each other's work.
+
+Backup and Recovery: Version control acts as a backup mechanism by storing multiple copies of files. If a file is accidentally deleted or corrupted, 
+it can be easily recovered from a previous version. This ensures data integrity and provides a safety net against data loss.
+
+Branching and Parallel Development: Version control systems offer branching mechanisms, which allow users to create independent lines of development.
+This is particularly useful for experimenting with new features or fixing bugs without disrupting the main codebase.
+Developers can work on different branches simultaneously and later merge them back together.
+
+Rollback and Revert: In case a change introduces a bug or causes an issue, version control allows for easy rollback.
+It enables developers to revert to a previous version of a file or the entire project, effectively undoing unwanted modifications.
+
+Code Reviews and Quality Assurance: Version control systems often include features for code reviews and quality assurance.
+Team members can review each other's code changes, provide feedback, and ensure that changes meet the project's standards and requirements.
+
+Overall, version control provides an organized and efficient way to manage and track changes in files and projects.
+It promotes collaboration, facilitates error recovery, and enhances the overall quality and reliability of software development and other collaborative endeavors.

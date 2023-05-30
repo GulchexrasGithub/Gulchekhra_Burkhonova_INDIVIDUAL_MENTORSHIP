@@ -1,0 +1,53 @@
+﻿﻿// --------------------------------------------------------------- 
+// Copyright (c) the Gulchekhra Burkhonova
+// INDIVIDUAL MENTORSHIP Program with Gulchekhra at Exadel
+// ---------------------------------------------------------------
+
+Question: About Agile, SCRUM
+Answer:
+	Agile and Scrum are frameworks used in software development and project management
+	to enable iterative and flexible approaches to deliver value in a collaborative manner.
+	Here's an overview of Agile and Scrum:
+
+		Agile:
+		Agile is an overarching philosophy or mindset that emphasizes adaptability, collaboration,
+		and continuous improvement. It values responding to change over following a rigid plan and focuses on delivering value to customers
+		through iterative development cycles. Agile promotes self-organizing, cross-functional teams that collaborate closely with stakeholders to deliver high-quality software.
+
+		Key principles of Agile include:
+
+		Customer collaboration over contract negotiation: Encouraging ongoing involvement and feedback from customers to ensure their needs are met.
+
+		Individuals and interactions over processes and tools: Prioritizing effective communication and collaboration within the team.
+
+		Working software over comprehensive documentation: Valuing tangible results and delivering functional software over extensive documentation.
+
+	Responding to change over following a plan: Embracing change and adjusting plans and priorities based on customer feedback and evolving requirements.
+
+		Scrum:
+		Scrum is an Agile framework that provides a specific structure and set of practices
+		to implement Agile principles. It defines roles, events, artifacts, and rules to facilitate collaboration,
+		transparency, and effective project management.
+
+		Key elements of Scrum include:
+
+		Scrum Team: A self-organizing cross-functional team consisting of a Product Owner, Scrum Master, and Development Team.
+
+		Product Backlog: A prioritized list of features, user stories, or requirements representing the work to be done.
+
+		Sprints: Time-boxed iterations (usually 1-4 weeks) during which the team focuses on delivering a potentially releasable increment of the product.
+
+		Sprint Planning: A meeting where the team selects items from the Product Backlog and defines the work to be done in the upcoming Sprint.
+
+		Daily Scrum: A brief daily meeting for the team to synchronize their work, discuss progress, and plan the day ahead.
+
+		Sprint Review: A meeting at the end of each Sprint to review and demonstrate the work completed and gather feedback from stakeholders.
+
+		Sprint Retrospective: A meeting where the team reflects on the previous Sprint and identifies areas for improvement.
+
+		Scrum provides a framework for iterative development, continuous feedback, and adaptation. It promotes transparency, teamwork, and delivering value incrementally.
+
+		Scrum is widely used in software development but can also be applied to various other projects where an Agile approach is beneficial.
+
+	It's worth noting that Agile and Scrum are not synonymous. Agile is a broader mindset, while Scrum is a specific framework
+	within the Agile approach. Other Agile frameworks, such as Kanban, Lean, and XP (Extreme Programming), also exist, each with its own principles and practices.
