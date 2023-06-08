@@ -20,14 +20,14 @@ RPC APIs are often described as being "stateful" because the client needs to mai
 
 Here is a table that summarizes the key differences between REST and RPC:
 
-Feature	REST	                                     RPC
-Architectural style	Representational State Transfer	 Remote Procedure Call
-Protocol	HTTP									 Custom
-URIs	Identify resources							 Not used
-HTTP verbs	Define actions on resources				 Not used
-Data formats	JSON or XML							 Custom
-State	Stateless									 Stateful
-Use cases	Web applications, microservices			 Enterprise applications, distributed systems
+Feature	            REST	                                     RPC
+Architectural style	Representational State Transfer	             Remote Procedure Call
+Protocol	        HTTP									     Custom
+URIs	            Identify resources							 Not used
+HTTP verbs	        Define actions on resources				     Not used
+Data formats	    JSON or XML							         Custom
+State	            Stateless									 Stateful
+Use cases	        Web applications, microservices			     Enterprise applications, distributed systems
 
 REST APIs are often preferred for web applications and microservices because they are more lightweight and easy to use.
 RPC APIs are often preferred for enterprise applications and distributed systems because they are more powerful
