@@ -1,0 +1,37 @@
+﻿﻿// --------------------------------------------------------------- 
+// Copyright (c) the Gulchekhra Burkhonova
+// INDIVIDUAL MENTORSHIP Program with Gulchekhra at Exadel
+// ---------------------------------------------------------------
+
+Question: About HTTPS, HTTP vs HTTPS
+Answer: 
+	HTTP and HTTPS are both protocols that are used to transfer data between a client and a server.
+	HTTP is the original protocol, while HTTPS is a secure version of HTTP that uses encryption to
+	protect data from being intercepted by third parties.
+
+	The main difference between HTTP and HTTPS is that HTTPS uses SSL/TLS (Secure Sockets Layer/Transport Layer Security) to encrypt all data 
+	that is transferred between the client and the server. This means that any data that is sent, such as passwords, credit card numbers,
+	or personal information, cannot be intercepted by third parties.
+
+	HTTPS is the preferred protocol for websites that handle sensitive data, 
+	such as e-commerce websites or any other site requiring users to log in using their credentials.
+	This is because HTTPS provides a layer of security that helps to protect users' data from being intercepted and stolen.
+
+	Here is a table that summarizes the key differences between HTTP and HTTPS:
+
+	Feature 	HTTP							HTTPS
+	Protocol	Hypertext Transfer Protocol		Hypertext Transfer Protocol Secure
+	Encryption	No								Yes, using SSL/TLS
+	Security	Not secure						Secure
+	Use cases	General use						Websites that handle sensitive data
+
+	Here are some of the benefits of using HTTPS:
+
+	Data security: HTTPS encrypts all data that is transferred between the client and the server, 
+	which helps to protect users' data from being intercepted and stolen.
+	Increased user trust: HTTPS gives users peace of mind knowing that their data is secure when they are using a website that uses HTTPS.
+	This can lead to increased user trust and loyalty.
+	Better SEO ranking: Google and other search engines often give websites that use HTTPS a higher ranking in search results. 
+	This is because HTTPS is seen as a sign of trustworthiness and security.
+	If you are running a website that handles sensitive data, I recommend that you switch to HTTPS.
+	HTTPS is a simple and effective way to protect your users' data and improve your website's security.
