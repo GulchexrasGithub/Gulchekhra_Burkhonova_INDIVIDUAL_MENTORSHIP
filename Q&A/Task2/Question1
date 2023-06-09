@@ -1,0 +1,15 @@
+﻿﻿// --------------------------------------------------------------- 
+// Copyright (c) the Gulchekhra Burkhonova
+// INDIVIDUAL MENTORSHIP Program with Gulchekhra at Exadel
+// ---------------------------------------------------------------
+
+Question: What is WEB API?
+Ansewer:
+	A Web API (Application Programming Interface) is an interface that allows different software applications
+	to communicate with each other over the internet. It is a set of protocols and tools for building software 
+	and applications. Web APIs can be used to access data from a database and save data back to the database.
+
+	For example, if you are using a mobile app that requires data from a server,
+	the app will send a request to the server through a Web API. 
+	The server will then process the request and send back the requested data 
+	in a format that can be easily understood by the app.

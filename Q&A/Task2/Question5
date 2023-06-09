@@ -1,0 +1,40 @@
+﻿﻿// --------------------------------------------------------------- 
+// Copyright (c) the Gulchekhra Burkhonova
+// INDIVIDUAL MENTORSHIP Program with Gulchekhra at Exadel
+// ---------------------------------------------------------------
+
+Question: About HTTP verbs (Get, Post …).
+Answer:
+	HTTP verbs are the methods used to specify the action 
+	that the client wants the server to perform. The most common HTTP verbs are:
+
+		GET: This verb is used to retrieve a resource.
+		POST: This verb is used to create a new resource.
+		PUT: This verb is used to update an existing resource.
+		DELETE: This verb is used to delete an existing resource.
+		Other less common HTTP verbs include:
+
+		HEAD: This verb is used to get the headers of a resource without getting the body.
+		OPTIONS: This verb is used to get the supported methods for a resource.
+		CONNECT: This verb is used to establish a tunnel to a remote server.
+		TRACE: This verb is used to echo back the request headers to the client.
+		The HTTP verb is specified in the request line of an HTTP message. For example,
+		the following request line uses the GET verb to retrieve the resource /index.html:
+
+		Code snippet
+		GET /index.html HTTP/1.1
+		Use code with caution. Learn more
+		The HTTP verb is used by the server to determine what action to take. For example,
+		if the server receives a GET request for /index.html, it will return the contents of the file /index.html.
+		If the server receives a POST request for /index.html, it will create a new file with the contents of the request body.
+
+		The HTTP verb is an important part of the HTTP protocol.
+		It allows clients and servers to communicate with each other in a clear and concise way.
+
+		Here are some additional details about the HTTP verbs:
+
+		GET: The GET verb is used to retrieve a resource. It is the most common HTTP verb and is used to request web pages, images, files, and other resources.
+		POST: The POST verb is used to create a new resource. It is used to submit forms, upload files, and create new objects in a database.
+		PUT: The PUT verb is used to update an existing resource. It is used to replace the contents of a file or object.
+		DELETE: The DELETE verb is used to delete an existing resource. It is used to remove a file, object, or other resource from the server.
+		The HTTP verbs are used to define the purpose of an HTTP request. The server uses the HTTP verb to determine how to respond to the request.

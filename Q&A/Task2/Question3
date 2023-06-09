@@ -1,0 +1,35 @@
+﻿﻿// --------------------------------------------------------------- 
+// Copyright (c) the Gulchekhra Burkhonova
+// INDIVIDUAL MENTORSHIP Program with Gulchekhra at Exadel
+// ---------------------------------------------------------------
+
+Question: About HTTP protocol versions.
+Answer: 
+	HTTP has four versions:
+
+		HTTP/0.9: This was the original version of HTTP and was released in 1991.
+		It was a very simple protocol that only supported the GET method and did not support any headers.
+
+		HTTP/1.0: This version of HTTP was released in 1996 and added support for more methods, 
+		including POST, HEAD, and PUT. It also added support for headers, 
+		which are used to pass additional information with requests and responses.
+
+		HTTP/1.1: This version of HTTP was released in 1997 and added a number of new features,
+		including persistent connections, pipelining, and caching.
+		Persistent connections allow multiple requests to be sent over the same connection,
+		which can improve performance. Pipelining allows multiple requests to be sent without waiting for the responses,
+		which can also improve performance. Caching allows web browsers to store copies of resources 
+		on their local hard drives, which can improve performance by reducing the number of requests 
+		that need to be made to the server.
+
+		HTTP/2: This version of HTTP was released in 2015 and adds a number of new features, 
+		including header compression, multiplexing, and server push. Header compression reduces the size of HTTP headers,
+		which can improve performance by reducing the amount of data that needs to be sent over the network.
+		Multiplexing allows multiple requests to be sent over the same connection simultaneously,
+		which can improve performance by increasing the amount of data that can be sent over the network
+		in a given amount of time. Server push allows the server to send resources 
+		to the client before the client requests them, which can improve performance by reducing the amount of time
+		that the client needs to wait for resources.
+
+		HTTP/2 is the most recent version of HTTP and is supported by most modern web browsers and web servers.
+		It is recommended that developers use HTTP/2 whenever possible to improve the performance of their web applications.

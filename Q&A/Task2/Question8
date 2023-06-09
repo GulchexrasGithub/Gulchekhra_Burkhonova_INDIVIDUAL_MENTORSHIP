@@ -1,0 +1,47 @@
+﻿﻿// --------------------------------------------------------------- 
+// Copyright (c) the Gulchekhra Burkhonova
+// INDIVIDUAL MENTORSHIP Program with Gulchekhra at Exadel
+// ---------------------------------------------------------------
+
+Question: What is REST? REST vs RPC.
+Answer:
+	REST and RPC are two different architectural styles for designing APIs.
+	REST stands for Representational State Transfer, while RPC stands for Remote Procedure Call.
+
+REST is a more recent architectural style that is based on the HTTP protocol. 
+It uses URIs to identify resources, HTTP verbs to define actions on those resources,
+and JSON or XML to represent the state of those resources. REST APIs are often described 
+as being "stateless" because the client does not need to maintain any state on the server in order to make requests.
+
+RPC is an older architectural style that is based on the idea of calling a function on a remote server.
+It uses a request-response model, where the client sends a request to the server and the server sends a response back. 
+RPC APIs often use custom data formats, such as binary or XML, to represent the state of the resources. 
+RPC APIs are often described as being "stateful" because the client needs to maintain state on the server in order to make requests.
+
+Here is a table that summarizes the key differences between REST and RPC:
+
+Feature	            REST	                                     RPC
+Architectural style	Representational State Transfer	             Remote Procedure Call
+Protocol	        HTTP									     Custom
+URIs	            Identify resources							 Not used
+HTTP verbs	        Define actions on resources				     Not used
+Data formats	    JSON or XML							         Custom
+State	            Stateless									 Stateful
+Use cases	        Web applications, microservices			     Enterprise applications, distributed systems
+
+REST APIs are often preferred for web applications and microservices because they are more lightweight and easy to use.
+RPC APIs are often preferred for enterprise applications and distributed systems because they are more powerful
+and can handle more complex requests.
+
+Here are some of the benefits of using REST APIs:
+
+Lightweight: REST APIs are typically smaller and easier to implement than RPC APIs.
+Extensible: REST APIs can be easily extended to support new features and functionality.
+Standardized: REST APIs are based on the HTTP protocol, which is a widely-used and well-understood protocol.
+Secure: REST APIs can be secured using HTTPS, which helps to protect user data from being intercepted and stolen.
+Here are some of the benefits of using RPC APIs:
+
+Powerful: RPC APIs can handle more complex requests than REST APIs.
+Efficient: RPC APIs can be more efficient than REST APIs for certain types of requests.
+Robust: RPC APIs can be more robust than REST APIs in the face of network failures and other errors.
+Ultimately, the best choice of architectural style depends on the specific requirements of the application.

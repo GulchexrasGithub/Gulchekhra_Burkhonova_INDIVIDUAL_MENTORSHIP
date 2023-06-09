@@ -1,0 +1,42 @@
+﻿﻿// --------------------------------------------------------------- 
+// Copyright (c) the Gulchekhra Burkhonova
+// INDIVIDUAL MENTORSHIP Program with Gulchekhra at Exadel
+// ---------------------------------------------------------------
+
+Question: About HTTP response status codes.
+Answer:
+	
+		HTTP response status codes are three-digit codes that indicate the result of an HTTP request. 
+		The first digit of the status code indicates the general class of the response,
+		while the remaining two digits provide more specific information.
+
+		The five general classes of HTTP response status codes are:
+
+		1xx: Informational responses indicate that the request was received and is being processed.
+		2xx: Success responses indicate that the request was successfully received, understood, and accepted.
+		3xx: Redirection responses indicate that the client should take additional action in order to complete the request.
+		4xx: Client error responses indicate that the client has erred.
+		5xx: Server error responses indicate that the server has erred.
+		Here are some examples of HTTP response status codes:
+
+		200 OK: The request was successful and the resource was found.
+		301 Moved Permanently: The requested resource has been moved to a new location.
+		400 Bad Request: The request was malformed and could not be understood by the server.
+		500 Internal Server Error: The server encountered an unexpected error and was unable to fulfill the request.
+		HTTP response status codes are an important part of the HTTP protocol. They allow clients and servers 
+		to communicate with each other in a clear and concise way.
+
+		Here are some additional details about HTTP response status codes:
+
+		1xx: Informational responses are used to inform the client that the request has been received and is being processed.
+		These responses are typically used for temporary conditions, such as when the server is still loading a resource.
+		2xx: Success responses are used to inform the client that the request was successfully received, understood, and accepted.
+		These responses are typically used for permanent conditions, such as when a resource has been successfully retrieved.
+		3xx: Redirection responses are used to inform the client that they should take additional action in order to complete the request.
+		These responses are typically used for temporary conditions, such as when the resource has been moved to a new location.
+		4xx: Client error responses are used to inform the client that they have erred. These responses are typically used for permanent conditions
+		, such as when the client has requested a resource that does not exist.
+		5xx: Server error responses are used to inform the client that the server has erred. 
+		These responses are typically used for temporary conditions, such as when the server is experiencing a technical problem.
+		The HTTP response status codes are an important part of the HTTP protocol. 
+		They allow clients and servers to communicate with each other in a clear and concise way.

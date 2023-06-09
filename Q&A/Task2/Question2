@@ -1,0 +1,43 @@
+﻿﻿// --------------------------------------------------------------- 
+// Copyright (c) the Gulchekhra Burkhonova
+// INDIVIDUAL MENTORSHIP Program with Gulchekhra at Exadel
+// ---------------------------------------------------------------
+
+Question: What is HTTP protocol?
+Answer:
+		 HTTP, or Hypertext Transfer Protocol, is the underlying protocol that allows the World Wide Web to function.
+		 It is a set of rules for how computers communicate with each other over the internet. HTTP is a stateless protocol,
+		 which means that each request from a client to a server is independent of any previous requests. This makes it efficient
+		 for handling large numbers of concurrent connections.
+
+		HTTP requests are made up of two parts: a request line and a message body.
+		The request line specifies the method, the URI, and the HTTP version. The method tells the server what action to take,
+		such as GET (retrieve a resource), POST (create a resource), PUT (update a resource), or DELETE (delete a resource).
+		The URI identifies the resource that the client is requesting.
+		The HTTP version specifies the version of the HTTP protocol that the client is using.
+
+		The message body is optional and can be used to send additional data to the server.
+		The message body can be used to send data such as form data, file uploads, or JSON objects.
+
+		HTTP responses are also made up of two parts: a status line and a message body.
+		The status line specifies the HTTP version, the status code, and the reason phrase.
+		The status code indicates whether the request was successful, failed, or redirected.
+		The reason phrase provides a human-readable explanation of the status code.
+
+		The message body is optional and can be used to send additional data to the client.
+		The message body can be used to send data such as the requested resource, error messages, or JSON objects.
+
+		HTTP is a simple and efficient protocol that is the foundation of the World Wide Web.
+		It is used by web browsers, web servers, and other applications to communicate with each other over the internet.
+
+		Here are some of the key features of HTTP:
+
+		It is a stateless protocol.
+		It is a text-based protocol.
+		It is a request-response protocol.
+		It is a connectionless protocol.
+		It is a reliable protocol.
+		HTTP is a widely used protocol and is supported by all major web browsers and web servers.
+		It is also supported by many other applications, such as FTP, email, and file sharing programs.
+
+		HTTP is a critical part of the internet and enables the exchange of information between computers all over the world.
