@@ -1,0 +1,31 @@
+﻿﻿// --------------------------------------------------------------- 
+// Copyright (c) the Gulchekhra Burkhonova
+// INDIVIDUAL MENTORSHIP Program with Gulchekhra at Exadel
+// ---------------------------------------------------------------
+
+Question: JIT/CLR.
+Answer:
+	
+	JIT and CLR are two important components of the .NET Framework.
+
+	JIT stands for Just-In-Time compiler. It is a compiler that converts .NET Intermediate Language (MSIL) code 
+	into native machine code that can be executed by the operating system. The JIT compiler is responsible for ensuring 
+	that .NET applications run as fast as possible. It does this by compiling MSIL code only when it is needed,
+	which can save time and memory.
+
+	CLR stands for Common Language Runtime. It is a virtual machine that provides a runtime environment for 
+	.NET applications. The CLR is responsible for managing memory, garbage collection, exception handling, and security. 
+	It also provides a set of services that are used by .NET applications, such as type safety, security, and reflection.
+
+	The JIT and CLR work together to make .NET applications fast, reliable, and secure.
+
+	Here are some of the benefits of using JIT and CLR:
+
+	Performance: JIT compilation can improve the performance of .NET applications by up to 100 times.
+	This is because the JIT compiler can optimize the code for the specific CPU that is running the application.
+
+	Reliability: The CLR provides a number of features that help to make .NET applications more reliable,
+	such as garbage collection and exception handling.
+
+	Security: The CLR provides a number of features that help to make .NET applications more secure,
+	such as type safety and security permissions.
