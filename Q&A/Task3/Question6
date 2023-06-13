@@ -1,0 +1,60 @@
+﻿﻿﻿// --------------------------------------------------------------- 
+// Copyright (c) the Gulchekhra Burkhonova
+// INDIVIDUAL MENTORSHIP Program with Gulchekhra at Exadel
+// ---------------------------------------------------------------
+
+Question: Strategy pattern.
+Answer:
+    The strategy pattern is a behavioral design pattern that allows you to choose between different algorithms at runtime.
+    This can be useful when you need to be able to change the behavior of an object without having to change its code.
+
+    The strategy pattern works by encapsulating each algorithm in a separate class.
+    The client code then uses an object that implements the strategy interface to control which algorithm is used.
+
+    Here is an example of how the strategy pattern can be used:
+
+            C#
+            // Define the strategy interface
+            public interface IStrategy
+            {
+                void DoSomething();
+            }
+
+            // Define concrete strategies
+            public class Strategy1 : IStrategy
+            {
+                public void DoSomething()
+                {
+                    // Implement the algorithm here
+                }
+            }
+
+            public class Strategy2 : IStrategy
+            {
+                public void DoSomething()
+                {
+                    // Implement the algorithm here
+                }
+            }
+
+            // Create a context object that uses the strategy pattern
+            public class Context
+            {
+                private IStrategy strategy;
+
+                public Context(IStrategy strategy)
+                {
+                    this.strategy = strategy;
+                }
+
+                public void DoSomething()
+                {
+                    // Use the strategy object to do something
+                    strategy.DoSomething();
+                }
+            }
+    Use code with caution. Learn more
+    In this example, the Context class uses the IStrategy interface to control which algorithm is used.
+    The client code can then create a new Context object and pass in a different strategy object to change the behavior of the Context object.
+
+    The strategy pattern is a powerful design pattern that can be used to make your code more flexible and easier to change.
