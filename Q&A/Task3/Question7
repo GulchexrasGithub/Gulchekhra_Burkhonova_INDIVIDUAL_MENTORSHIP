@@ -1,0 +1,102 @@
+﻿﻿﻿// --------------------------------------------------------------- 
+// Copyright (c) the Gulchekhra Burkhonova
+// INDIVIDUAL MENTORSHIP Program with Gulchekhra at Exadel
+// ---------------------------------------------------------------
+
+Question: Repository pattern.
+Answer: 
+    The repository pattern is a design pattern that abstracts away the data access layer.
+    This makes the code more portable and easier to test.
+
+    The repository pattern works by defining a repository interface that defines the methods that are required to access the data. 
+    The repository interface is then implemented by a concrete repository class that knows how to access the data.
+
+    The client code then uses the repository interface to access the data. This decouples the client code from the data access layer,
+    making the code more portable and easier to test.
+
+    Here is an example of how the repository pattern can be used:
+
+        C#
+        // Define the repository interface
+        public interface IRepository
+        {
+            IEnumerable<Customer> GetCustomers();
+            Customer GetCustomer(int id);
+            void SaveCustomer(Customer customer);
+        }
+
+        // Implement the repository interface
+        public class CustomerRepository : IRepository
+        {
+            private readonly SqlConnection connection;
+
+            public CustomerRepository(string connectionString)
+            {
+                this.connection = new SqlConnection(connectionString);
+            }
+
+            public IEnumerable<Customer> GetCustomers()
+            {
+                // Get the customers from the database
+                var customers = new List<Customer>();
+                using (var cmd = new SqlCommand("SELECT * FROM Customers", connection))
+                {
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            var customer = new Customer
+                            {
+                                Id = reader["Id"] as int,
+                                Name = reader["Name"] as string,
+                                Email = reader["Email"] as string
+                            };
+                            customers.Add(customer);
+                        }
+                    }
+                }
+                return customers;
+            }
+
+            public Customer GetCustomer(int id)
+            {
+                // Get the customer from the database
+                var customer = new Customer();
+                using (var cmd = new SqlCommand("SELECT * FROM Customers WHERE Id = @Id", connection))
+                {
+                    cmd.Parameters.AddWithValue("@Id", id);
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            customer.Id = reader["Id"] as int;
+                            customer.Name = reader["Name"] as string;
+                            customer.Email = reader["Email"] as string;
+                        }
+                    }
+                }
+                return customer;
+            }
+
+            public void SaveCustomer(Customer customer)
+            {
+                // Save the customer to the database
+                using (var cmd = new SqlCommand("INSERT INTO Customers (Name, Email) VALUES (@Name, @Email)", connection))
+                {
+                    cmd.Parameters.AddWithValue("@Name", customer.Name);
+                    cmd.Parameters.AddWithValue("@Email", customer.Email);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+
+    In this example, the CustomerRepository class implements the IRepository interface.
+    The CustomerRepository class knows how to get customers from the database, get a customer by id, and save a customer to the database.
+
+    The client code then uses the IRepository interface to access the data.
+    For example, the following code gets all the customers from the database:
+
+    C#
+    var customers = repository.GetCustomers();
+
+    The repository pattern is a powerful design pattern that can be used to make your code more portable and easier to test.
