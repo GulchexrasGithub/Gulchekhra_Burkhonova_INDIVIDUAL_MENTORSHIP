@@ -1,0 +1,26 @@
+﻿﻿// --------------------------------------------------------------- 
+// Copyright (c) the Gulchekhra Burkhonova
+// INDIVIDUAL MENTORSHIP Program with Gulchekhra at Exadel
+// ---------------------------------------------------------------
+
+
+Question: Difference between .NET Framework, .NET standard, Core.
+Answer:
+	The .NET Framework, .NET Standard, and .NET Core are all runtimes for building applications with .NET.
+	They share many of the same APIs called the .NET Standard 1. Here are some differences between them:
+
+.NET Framework: It is used for Windows desktop and server-based applications,
+including ASP.NET web applications. It is dependent on the Windows operating system 
+and does not support the development of standalone desktop applications.
+
+.NET Standard: It is a compatibility API that was created to allow assemblies
+(the .NET term for .dll files) to be compiled for either .NET Framework or .NET Core.
+It replaces all different BCLs for all frameworks.
+
+.NET Core: It is used for server applications that run on Windows, Linux, and Mac, and supports the implementation of microservices.
+It is more effective, fast, secure, flexible, and scalable than .NET Framework and offers cross-platform performance and cloud deployment. 
+It is open source and free to use and has community contributions.
+
+Overall, .NET Core is more effective than .NET Framework in terms of performance and scalability.
+It also offers cross-platform performance and cloud deployment. On the other hand, .NET Framework is used for Windows desktop and server-based applications 
+

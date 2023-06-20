@@ -1,0 +1,62 @@
+/ --------------------------------------------------------------- 
+// Copyright (c) the Gulchekhra Burkhonova
+// INDIVIDUAL MENTORSHIP Program with Gulchekhra at Exadel
+// ---------------------------------------------------------------
+
+Question: async/await.
+Answer: 
+        The async and await keywords in C# and Visual Basic allow you to write asynchronous code that looks like synchronous code.
+        This makes it easier to write code that can take advantage of multiple cores and improve performance.
+
+        Asynchronous code is code that can run concurrently with other code. This is in contrast to synchronous code,
+        which runs to completion before the next line of code is executed.
+
+        The async and await keywords work together to make asynchronous code look like synchronous code. When an asynchronous operation is started,
+        the await keyword is used to suspend the current execution context and return a promise. The promise will be resolved when the asynchronous operation is complete.
+        The await keyword will then resume the execution context with the result of the asynchronous operation.
+
+        Here is an example of how async and await can be used to write asynchronous code:
+
+        Code snippet
+        async Task SomeAsyncMethod()
+        {
+            // Start an asynchronous operation.
+            var task = Task.Run(() => SomeLongRunningOperation());
+
+            // Do something else while the asynchronous operation is running.
+            await Task.Delay(1000);
+
+            // Check the status of the asynchronous operation.
+            if (task.IsCompleted)
+            {
+                // The asynchronous operation has completed.
+                // Do something with the result.
+            }
+            else
+            {
+                // The asynchronous operation is still running.
+                // Wait for it to complete.
+                await task;
+            }
+        }
+       
+        The SomeAsyncMethod method starts an asynchronous operation and then does something else
+        while the asynchronous operation is running. After 1000 milliseconds, the method checks the status of the asynchronous operation.
+        If the asynchronous operation has completed, the method does something with the result. Otherwise,
+        the method waits for the asynchronous operation to complete and then does something with the result.
+
+        The async and await keywords are a powerful feature that can make it easier to write asynchronous code.
+        It can also improve performance by allowing the application to take advantage of multiple cores.
+
+        Here are some of the benefits of using async and await:
+
+        Simplicity: Asynchronous code that uses async and await looks like synchronous code, which makes it easier to write and understand.
+        Performance: Asynchronous code that uses async and await can take advantage of multiple cores, which can improve performance.
+        Reliability: Asynchronous code that uses async and await can be more reliable, as it can handle errors and exceptions gracefully.
+        Here are some of the drawbacks of using async and await:
+
+        Complexity: Asynchronous code that uses async and await can be more complex than synchronous code, as it requires the developer to understand how asynchronous operations work.
+        Cost: Asynchronous code that uses async and await can be more expensive to develop and maintain than synchronous code.
+        Performance: Asynchronous code that uses async and await can be less performant than synchronous code, due to the additional overhead of managing asynchronous operations.
+        Overall, async and await are a powerful feature that can make it easier to write asynchronous code. However,
+        it is important to weigh the benefits and drawbacks of async and await before deciding whether or not to use them for a particular project.

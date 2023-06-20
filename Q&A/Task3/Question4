@@ -1,0 +1,46 @@
+/ --------------------------------------------------------------- 
+// Copyright (c) the Gulchekhra Burkhonova
+// INDIVIDUAL MENTORSHIP Program with Gulchekhra at Exadel
+// ---------------------------------------------------------------
+
+Question:3-tier architecture.
+Answer:
+	A three-tier architecture is a software design pattern that divides an application into three logical tiers:
+	the presentation tier, the application tier, and the data tier.
+
+	The presentation tier is responsible for displaying data to the user and receiving input from the user.
+	It typically consists of a web browser, a user interface (UI) framework, and a presentation layer.
+	The application tier is responsible for processing data and performing business logic.
+	It typically consists of a web server, an application server, and an application layer.
+	The data tier is responsible for storing data and retrieving data for the application tier. 
+	It typically consists of a database server, a data access layer, and a data layer.
+	The three tiers are connected by a network. The presentation tier communicates with the application tier using a web service or an API.
+	The application tier communicates with the data tier using a database query language (SQL).
+
+	Three-tier architecture is a popular software design pattern because it provides a number of benefits, including:
+
+	Scalability: The three tiers can be scaled independently, which makes it easier to add or remove capacity as needed.
+	Reliability: The three tiers can be deployed on different servers, which makes the application more reliable in the event of a server failure.
+	Security: The three tiers can be segmented, which makes it easier to protect sensitive data.
+	Maintainability: The three tiers can be developed and maintained independently, which makes it easier to update and change the application.
+	Three-tier architecture is a versatile design pattern that can be used to develop a wide variety of applications, including web applications,
+	mobile applications, and enterprise applications.
+
+	Here are some of the advantages of using three-tier architecture:
+
+	Scalability: Three-tier architecture is scalable, meaning that it can be easily expanded to handle increased traffic or demand.
+
+	Reliability: Three-tier architecture is reliable, meaning that it can withstand failures in individual components
+	without bringing down the entire application.
+
+	Security: Three-tier architecture is secure, meaning that it can protect sensitive data from unauthorized access.
+
+	Maintainability: Three-tier architecture is easy to maintain, meaning that it can be easily updated or changed without disrupting the user experience.
+
+	Here are some of the disadvantages of using three-tier architecture:
+
+	Complexity: Three-tier architecture can be complex to design and implement.
+	Cost: Three-tier architecture can be more expensive to develop and maintain than other types of architectures.
+	Performance: Three-tier architecture can be less performant than other types of architectures, due to the additional communication between tiers.
+	Overall, three-tier architecture is a versatile and scalable design pattern that can be used to develop a wide variety of applications. However,
+	it is important to weigh the advantages and disadvantages of three-tier architecture before deciding whether or not to use it for a particular project.

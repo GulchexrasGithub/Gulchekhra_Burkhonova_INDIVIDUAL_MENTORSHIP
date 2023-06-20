@@ -1,0 +1,31 @@
+﻿﻿﻿// --------------------------------------------------------------- 
+// Copyright (c) the Gulchekhra Burkhonova
+// INDIVIDUAL MENTORSHIP Program with Gulchekhra at Exadel
+// ---------------------------------------------------------------
+
+Question: SOLID and especially dependency inversion.
+Answer:
+	
+
+	SOLID is a set of five design principles that can be used to improve the quality of software. The principles are:
+
+	Single responsibility principle: A class should have only one responsibility.
+	Open/closed principle: Classes should be open for extension, but closed for modification.
+	Liskov substitution principle: Derived classes should be substitutable for their base classes.
+	Interface segregation principle: Clients should not be forced to depend on methods they do not use.
+	Dependency inversion principle: Abstractions should not depend on details. Details should depend on abstractions.
+
+	Dependency inversion is a specific implementation of the Dependency Inversion Principle. 
+	It states that high-level modules should not depend on low-level modules. Instead, both should depend on abstractions.
+
+	In the context of your code, the WeatherService class is a high-level module. It depends on the OpenWeatherMapRepository class, 
+	which is a low-level module. The WeatherService class should not depend on the OpenWeatherMapRepository class directly.
+	Instead, it should depend on an abstraction, such as the IWeatherRepository interface.
+
+	The IWeatherRepository interface defines the methods that are required to get weather data. 
+	The OpenWeatherMapRepository class implements the IWeatherRepository interface.
+	This allows the WeatherService class to be decoupled from the OpenWeatherMapRepository class.
+
+	The benefit of dependency inversion is that it makes the code more flexible and easier to change.
+	If you need to change the weather data provider, you only need to change the OpenWeatherMapRepository class. 
+	You do not need to change the WeatherService class.
