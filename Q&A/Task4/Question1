@@ -3,3 +3,36 @@
 // INDIVIDUAL MENTORSHIP Program with Gulchekhra at Exadel
 // ---------------------------------------------------------------
 
+Question Main goal of unit testing.
+Answer:
+	 The main goal of unit testing is to verify the correctness of individual units of code,
+	 typically at the function or method level. It involves writing automated tests to ensure
+	 that each unit of code performs as expected and produces the correct output for a given input.
+
+	Here are the main goals and benefits of unit testing:
+
+	Detecting bugs early: Unit tests allow you to catch bugs and issues early in the development process. 
+	By testing individual units of code in isolation, you can identify and fix problems before they propagate to other parts of the system.
+
+	Ensuring code correctness: Unit tests provide a safety net to ensure that each unit of code behaves correctly according to its specification. 
+	By defining expected inputs and comparing them with the actual outputs, you can verify that the code produces the desired results.
+
+	Improving code quality: Unit testing encourages writing modular, reusable, and loosely coupled code. 
+	It promotes good programming practices such as writing small, focused functions and adhering to the single responsibility principle.
+
+	Facilitating code maintenance: Unit tests act as documentation for the behavior of the code. When making changes or refactoring code,
+	you can run the unit tests to ensure that the modifications didn't introduce regressions or break existing functionality.
+
+	Enabling easier collaboration: Unit tests make it easier for multiple developers to work on a codebase simultaneously. 
+	They provide a common understanding of how the code should behave and allow developers to make changes with confidence,
+	knowing that they won't inadvertently introduce issues.
+
+	Supporting code refactoring: Unit tests act as a safety net when refactoring code.
+	They provide assurance that the behavior of the code remains intact after refactoring, 
+	helping to catch any unintended side effects.
+
+	Promoting scalability and maintainability: Well-tested codebases are easier to scale and maintain over time. 
+	Unit tests make it easier to identify and isolate issues, which reduces the time and effort required for bug fixing and maintenance.
+
+	In summary, unit testing plays a crucial role in ensuring code quality, detecting bugs early, and facilitating code maintenance and collaboration.
+	By writing thorough and reliable unit tests, developers can have confidence in the correctness and robustness of their code.
