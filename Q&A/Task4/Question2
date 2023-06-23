@@ -1,0 +1,25 @@
+﻿﻿// --------------------------------------------------------------- 
+// Copyright (c) the Gulchekhra Burkhonova
+// INDIVIDUAL MENTORSHIP Program with Gulchekhra at Exadel
+// ---------------------------------------------------------------
+
+Question: Test methods naming.
+ANSWER:
+	Test method naming is an essential aspect of unit testing.
+	Clear and descriptive test method names make it easier to understand the purpose and functionality of each test.
+	Here are some guidelines for naming test methods:
+
+Use descriptive names: Choose names that clearly indicate the behavior being tested. 
+The name should describe the expected outcome or the specific scenario being tested.
+
+Follow the convention: It is common to prefix test method names with "Test" or use a naming convention that reflects the method being tested.
+For example, if you are testing a method called CalculateTotalPrice(), the corresponding test method could be named TestCalculateTotalPrice().
+
+Include relevant details: Include any relevant information that helps distinguish between different test cases. 
+This can include input values, specific conditions, or expected outcomes. For example, if you are testing a method that calculates the price based on different discounts, 
+you can name the test methods accordingly, such as TestCalculatePrice_WithDiscountApplied() and TestCalculatePrice_WithoutDiscountApplied().
+
+Be consistent: Maintain consistency in your test method naming conventions throughout your test suite. This makes it easier to navigate and understand the tests.
+
+Avoid overly long names: While it's important to be descriptive, excessively long test method names can become cumbersome. 
+Aim for concise yet informative names that capture the essence of the test.
