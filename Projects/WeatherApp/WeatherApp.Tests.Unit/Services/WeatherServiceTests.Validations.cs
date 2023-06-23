@@ -9,7 +9,7 @@ namespace WeatherApp.Tests.Unit.Services
     public partial class WeatherServiceTests
     {
         [Fact]
-        public void GetWeatherInfo_ThrowsException_WhenCityIsEmpty()
+        public void ShouldThrowValidationExceptionOnGetWeatherInfoByCityNameIfCityNameIsInvalid()
         {
             // Arrange
             var mockWeatherDataClient = new Mock<IWeatherDataClient>();
@@ -20,7 +20,7 @@ namespace WeatherApp.Tests.Unit.Services
         }
 
         //[Test]
-        //public void ShouldThrowValidationExceptionOnRetrieveModelByNameIfModelNameIsInvalidAsync()
+        //public void ShouldThrowValidationExceptionOnGetWeatherInfoByCityNameIfCityNameIsInvalid()
         //{
         //    // given
         //    string invalidCityName= null;
