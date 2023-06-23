@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace WeatherApp.DAL
+namespace WeatherApp.DAL.Models
 {
     public class WeatherData
     {

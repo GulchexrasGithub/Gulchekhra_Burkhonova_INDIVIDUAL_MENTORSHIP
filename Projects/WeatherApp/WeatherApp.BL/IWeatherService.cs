@@ -2,6 +2,6 @@
 {
     public interface IWeatherService
     {
-        WeatherInfo GetWeatherInfo(string city);
+        public WeatherInfo GetWeatherInfo(string city);
     }
 }
