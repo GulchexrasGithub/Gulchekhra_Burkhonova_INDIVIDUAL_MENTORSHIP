@@ -16,7 +16,7 @@ namespace WeatherApp.Tests.Unit.Services
             var weatherService = new WeatherService(mockWeatherDataClient.Object);
 
             // Act and Assert
-            Assert.Throws<InvalidCityNameException>(() => weatherService.GetWeatherInfo("String"));
+            Assert.Throws<InvalidCityNameException>(() => weatherService.GetWeatherInfo(""));
         }
 
         //[Test]
