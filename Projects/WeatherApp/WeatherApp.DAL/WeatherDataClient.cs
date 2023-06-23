@@ -2,14 +2,15 @@
 using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using WeatherApp.DAL.Models;
 
 namespace WeatherApp.DAL
 {
-    public class WeatherDataClient
+    public class WeatherDataClient : IWeatherDataClient
     {
         private const string WeatherMapApiKey = "cc3f759ee7f4d8c7b0cadb2a0328ee04";
 
-        public async Task<float> GetTemperature(string city)
+        public async ValueTask<float> GetTemperature(string city)
         {
             using (HttpClient client = new HttpClient())
             {

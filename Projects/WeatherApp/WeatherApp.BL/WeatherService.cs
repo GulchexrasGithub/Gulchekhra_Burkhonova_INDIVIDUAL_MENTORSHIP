@@ -1,27 +1,23 @@
-﻿using FluentValidation;
-using WeatherApp.DAL;
+﻿using WeatherApp.DAL;
 
 namespace WeatherApp.BL
 {
     public partial class WeatherService : IWeatherService
     {
-        private readonly WeatherDataClient weatherDataClient;
+        private readonly IWeatherDataClient weatherDataClient;
 
-        public WeatherService(WeatherDataClient weatherDataClient)
+        public WeatherService(
+            IWeatherDataClient weatherDataClient)
         {
             this.weatherDataClient = weatherDataClient;
         }
 
         public WeatherInfo GetWeatherInfo(string city)
         {
-            // Validate the city name
-            CityValidator validator = new CityValidator();
-            validator.ValidateAndThrow(city);
+            ValidateCityName(city);
 
-            // Retrieve temperature from the API
             float temperature = weatherDataClient.GetTemperature(city).GetAwaiter().GetResult();
 
-            // Determine the comment based on the temperature using switch case
             string comment;
             switch (temperature)
             {
